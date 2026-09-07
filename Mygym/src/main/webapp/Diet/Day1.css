@@ -1,0 +1,41 @@
+@charset "UTF-8";
+body,html{
+	padding:0;
+	margin:0;
+	height:100;
+}
+.main{
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+.image{
+	display:flex;
+	flex-wrap:wrap;
+	height:720vh;
+	width:20%;
+    margin:50px;
+	
+	
+	
+}
+.image img{
+	height:40vh;
+	width:100%;
+	object-fit:cover;
+	border-radius:150px;
+}
+.text{
+	width:70%;
+	
+	
+	
+}
+
+pre{
+	
+	font-family:simple;
+	white-space:pre-wrap;
+	overflow-wrap:anywhere;
+
+}

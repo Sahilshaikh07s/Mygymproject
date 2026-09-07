@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.main{
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+.image{
+	display:flex;
+	flex-wrap:wrap;
+	
+
+	height:440vh;
+	width:20%;
+	margin:50px;
+}
+.image img{
+	height:40vh;
+	width:100%;
+	border-radius:170px;
+
+}
+
+.text{
+	width:70%;
+}
+pre{
+	font-family:simple;
+	white-space:pre-wrap;
+	overflow-wrap:anywhere;
+}

@@ -1,0 +1,99 @@
+@charset "UTF-8";
+body,html{
+	padding:0;
+	margin:0;
+	height:100;
+}
+
+.image-section{
+	background-image:url(images/gymphoto.png);
+	background-size:cover;
+	background-position:center top;
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+ .login-section{
+ 
+ width:300px;
+ padding:30px;
+ text-align:center;
+ border-radius:15px;
+ background:rgba(255,255,255,0);
+ 
+ 
+ }
+ .login-section input{
+ 
+ display:block;
+ width:90%;
+ margin:7px auto;
+ padding:10px;
+ border-radius:15px;
+ }
+ .login-section button{
+ 
+ width:45%;
+ background:#333;
+ color:white;
+ border-radius:15px;
+ padding:10px;
+ cursor:pointer;
+ }
+ 
+ 
+ .image1-section{
+ display:block;
+ background-image:url(images/dumblex.jpeg);
+ background-size:cover;
+ background-position : center top;
+ height:100vh;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ }
+ 
+ .signup-section{
+ display:flex;
+ justify-content:center;
+ width:300px;
+ padding:10px;
+ margin:7px auto;
+ text-align:center;
+ border-radius:15px;
+ align-items:center;
+ }
+ 
+ .signup-section input{
+ 
+ display:block;
+ width:90%;
+ padding:10px;
+ margin:7px;
+ border-radius:15px; 
+
+ border-radius:15px;
+ align-items:center;
+ }
+ 
+ .signup-section button{
+ 
+ width:45%;
+ background-color: #333;
+ color:white;
+ border-radius:15px;
+ cursor:pointer;
+ padding:10px;
+ display:block;
+margin:7px auto;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

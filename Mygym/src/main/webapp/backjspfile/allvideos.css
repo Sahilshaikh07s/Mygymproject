@@ -1,0 +1,44 @@
+@charset "UTF-8";
+.exercise{
+	display:flex;
+	flex-wrap:wrap;
+	align-items:flex-start;
+	
+}
+
+.videos{
+	height:80vh;
+	width:32%;
+	
+	display:flex;
+	
+}
+
+.videos video{
+	height:70vh;
+	width:90%;
+	margin:5px;
+	border-radius:15px;
+	object-fit:cover;
+}
+
+.exercise-info{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	width:60%;
+
+	
+}
+
+pre{
+	
+	
+	font-family:simple;
+	
+	display:flex;
+	flex-wrap:wrap;
+	white-space:pre-wrap;
+	overflow-wrap:anywhere;
+	
+}

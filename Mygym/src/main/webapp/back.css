@@ -1,0 +1,56 @@
+@charset "UTF-8";
+body,html{
+	height:100;
+	padding:0;
+	margin:0;
+	background-image:url(Diet/flag1.jpeg);
+    background-size:contain;
+}
+
+.container{
+	display:flex;
+	
+}
+
+.image{
+	width:45%;
+	height:100vh;
+	display:flex;
+	
+}
+
+.image img{
+	height:100vh;
+	width:90%;
+	border-radius:30px;
+	display:flex;
+}
+
+.video-section{
+	
+	width:75%;
+	height:100vh;
+	display:flex;
+	gap-center:15px;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+	
+	
+}
+.video-section a{
+	width:32%;
+	display:flex;
+}
+
+.video-section video{
+	
+	width:100%;
+	height:40vh;
+	border-radius:15px;
+	object-fit:cover;
+	margin:7px;
+	
+	
+	
+	
+}
